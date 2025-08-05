@@ -2,7 +2,7 @@
 
 [**Demo Link**](https://rkoltunov.github.io/phone-catalog/)
 
-**Design Variants:**
+## **Design Variants:**
 
 [**Rounded Blue**](https://www.figma.com/design/FRxncC4lfyhs6og1L6FGEU/Phone-catalog--V2--Rounded-Style-2?node-id=0-1&p=f&t=15o13nsHHo2iYM4d-0)
 
@@ -47,10 +47,10 @@ This project is a full-featured e-commerce catalog built with **React**. It incl
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/react-product-catalog.git
+git clone https://github.com/your-username/phone-catalog.git
 
 # 2. Navigate to the project directory
-cd react-product-catalog
+cd phone-catalog
 
 # 3. Install dependencies
 npm install
