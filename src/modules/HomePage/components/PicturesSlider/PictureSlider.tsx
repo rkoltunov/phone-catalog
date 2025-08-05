@@ -64,7 +64,7 @@ export const PictureSlider = () => {
           <button onClick={previousImg} className={styles.slider__arrow}>
             <img
               className={styles.arrow}
-              src={getAssetUrl('icons/arrow_black_right.svg')}
+              src={getAssetUrl('/public/icons/arrow_black_right.svg')}
               alt=""
             />
           </button>
@@ -74,7 +74,7 @@ export const PictureSlider = () => {
               <h2 className={styles.sliderLeft__title}>
                 Now available in our store!
                 <img
-                  src={getAssetUrl('icons/logo_ok_hand.svg')}
+                  src={getAssetUrl('/public/icons/logo_ok_hand.svg')}
                   className={styles.sliderLeft__emoji}
                 />
               </h2>
@@ -92,7 +92,7 @@ export const PictureSlider = () => {
             </div>
           </div>
           <button onClick={nextImg} className={styles.slider__arrow}>
-            <img src={getAssetUrl('icons/arrow_black_right.svg')} alt="" />
+            <img src={getAssetUrl('/public/icons/arrow_black_right.svg')} alt="" />
           </button>
         </div>
         <div className={styles.dashes}>

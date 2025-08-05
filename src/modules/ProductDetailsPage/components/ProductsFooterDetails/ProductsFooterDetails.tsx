@@ -56,8 +56,8 @@ export const ProductsFooterDetails = ({ item }: DetailsProps) => {
 
   const buttonText = isInCart ? 'Added to cart' : 'Add to cart';
   const activeImg = isInFavourites
-    ? getAssetUrl('icons/Favourites_check.svg')
-    : getAssetUrl('icons/Favourites.svg');
+    ? getAssetUrl('/public/icons/Favourites_check.svg')
+    : getAssetUrl('/public/icons/Favourites.svg');
 
   return (
     <FooterSlider

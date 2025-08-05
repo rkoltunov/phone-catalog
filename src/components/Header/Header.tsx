@@ -60,7 +60,7 @@ export const Header = ({ showSearch }: HeaderProps) => {
               />
               <img
                 className={styles.logo__hand}
-                src={getAssetUrl('icons/logo_ok_hand.svg')}
+                src={getAssetUrl('/public/icons/logo_ok_hand.svg')}
                 alt=""
                 aria-hidden="true"
               />
@@ -146,7 +146,7 @@ export const Header = ({ showSearch }: HeaderProps) => {
                   styles.navigationMenu__img,
                   styles['navigationMenu__img--theme'],
                 )}
-                src={getAssetUrl('icons/theme.svg')}
+                src={getAssetUrl('/public/icons/theme.svg')}
                 alt=""
                 aria-hidden="true"
               />

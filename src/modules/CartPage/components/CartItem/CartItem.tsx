@@ -68,8 +68,8 @@ export const CartItem = ({
             <img
               src={
                 product.quantity === 1
-                  ? getAssetUrl('icons/minus_disabled.svg')
-                  : getAssetUrl('icons/minus.svg')
+                  ? getAssetUrl('/public/icons/minus_disabled.svg')
+                  : getAssetUrl('/public/icons/minus.svg')
               }
               alt=""
               aria-hidden={true}
@@ -82,7 +82,7 @@ export const CartItem = ({
             aria-label="increase quantity"
           >
             <img
-              src={getAssetUrl('icons/plus.svg')}
+              src={getAssetUrl('/public/icons/plus.svg')}
               alt=""
               aria-hidden={true}
             />
