@@ -1,6 +1,6 @@
 {
-  "homepage": "https://rkoltunov.github.io/phone-catalog",
-  "name": "react-typescript-starter-pack",
+  "name": "phone-catalog",
+  "homepage": "https://rkoltunov.github.io/phone-catalog/",
   "version": "0.1.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",

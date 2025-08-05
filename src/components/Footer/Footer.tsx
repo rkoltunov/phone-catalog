@@ -16,12 +16,12 @@ export const Footer = () => {
         <Link to="/" aria-label="main page">
           <img
             className={styles.logo__img}
-            src={getAssetUrl('/public/icons/logo.svg')}
+            src={getAssetUrl('icons/logo.svg')}
             alt="phone shop logo"
           />
           <img
             className={styles.logo__hand}
-            src={getAssetUrl('/public/icons/logo_ok_hand.svg')}
+            src={getAssetUrl('icons/logo_ok_hand.svg')}
             alt=""
             aria-hidden="true"
           />

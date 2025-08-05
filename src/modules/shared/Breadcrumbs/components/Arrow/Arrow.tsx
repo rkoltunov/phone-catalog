@@ -7,7 +7,7 @@ export const Arrow = () => {
     <span className={styles.arrow}>
       <img
         className={styles.arrow__img}
-        src={getAssetUrl('/public/icons/arrow_right.svg')}
+        src={getAssetUrl('icons/arrow_right.svg')}
         alt=""
       />
     </span>
