@@ -41,7 +41,7 @@ export const SearchInput = () => {
       >
         <img
           className={styles.navigationMenu__img}
-          src={getAssetUrl('./icons/magnifying-glass.png')}
+          src={getAssetUrl('icons/magnifying-glass.png')}
           alt=""
           aria-hidden="true"
         />
